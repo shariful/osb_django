@@ -8,7 +8,7 @@ import json
 @api_view(["POST"])
 def osb(request):
     try:
-        #data = json.loads(request.body.decode('utf8'))
+        #data = json.loads(request.body.decode('utf8')) test purpose
         print("hitted")
         try:
             file = {
